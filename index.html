@@ -5,10 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Art of Affordable Luxury Travel</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
     <style>
         body { font-family: 'Poppins', sans-serif; background-color: #F9FAFB; color: #1F2937; }
         .font-serif { font-family: 'Playfair Display', serif; }
+        .book-cover-container {
+            position: relative;
+            max-width: 320px; /* Corresponds to max-w-xs */
+            margin: auto;
+        }
+        .book-cover-text {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: white;
+            background-color: rgba(0, 0, 0, 0.4); /* Dark overlay for readability */
+            padding: 1rem;
+            border-radius: 0.5rem;
+        }
     </style>
 </head>
 <body class="antialiased">
@@ -20,13 +41,61 @@
         </header>
 
         <section class="my-16">
-            <div class="max-w-3xl mx-auto bg-white p-8 rounded-xl shadow-lg">
-                <h2 class="text-3xl font-bold text-gray-800 font-serif text-center mb-6">The Smart Luxury E-Book</h2>
-                <p class="text-center text-gray-600 mb-6 italic">"This book saved me over $1,000 on my last trip! It's a game-changer." - Jonathan</p>
-                <p class="text-center text-gray-600 mb-6">Inside, you'll find 20 actionable secrets that show you how to find mistake fares, use points for 5-star hotels, and travel with style, not stress.</p>
-                <div class="text-center">
-                     <a href="https://reelaffirmations.gumroad.com/l/ohpxgn" target="_blank" class="inline-block bg-blue-600 text-white font-bold py-3 px-6 rounded-lg hover:bg-blue-700 transition">Download</a>
+            <div class="max-w-4xl mx-auto bg-white p-8 md:p-12 rounded-xl shadow-lg">
+                <div class="grid md:grid-cols-2 gap-8 md:gap-12 items-center">
+                    
+                    <!-- E-book Mockup -->
+                    <div class="book-cover-container">
+                        <img src="https://images.unsplash.com/photo-1506929562872-bb421503ef21?q=80&w=800" alt="Luxury travel background" class="w-full rounded-lg shadow-2xl">
+                        <div class="book-cover-text">
+                            <h3 class="text-lg font-light tracking-widest uppercase">The</h3>
+                            <h2 class="text-5xl lg:text-6xl font-serif leading-tight my-2">Smart Luxury Book</h2>
+                             <div class="w-16 h-0.5 bg-white my-4"></div>
+                            <p class="font-semibold tracking-widest uppercase">Jonny Jetsetter</p>
+                        </div>
+                    </div>
+
+                    <!-- Product Details -->
+                    <div>
+                        <h2 class="text-3xl font-bold text-gray-800 font-serif mb-4">The Smart Luxury E-Book</h2>
+                        <p class="text-gray-600 mb-6 italic">"This book saved me over $1,000 on my last trip! It's a game-changer." - Jonathan</p>
+                        
+                        <div class="text-gray-700 space-y-4">
+                            <p>A complete guide of 20 proven strategies for high-end travel on a savvy budget. This e-book provides a clear, actionable system for traveling better and smarter.</p>
+                            
+                            <h3 class="font-bold pt-2">What you will learn:</h3>
+                            <ul class="list-disc list-inside space-y-1">
+                                <li><strong>Flights:</strong> How to use "Open-Jaw" itineraries and "Red-Eye" flights to save time and money.</li>
+                                <li><strong>Accommodation:</strong> How to choose the perfect Airbnb and leverage credit card perks for hotel upgrades.</li>
+                                <li><strong>Dining:</strong> How to save hundreds by avoiding common restaurant markups on drinks and desserts.</li>
+                                <li><strong>Strategy:</strong> How to use travel insurance, manage social media use, and pack smarter.</li>
+                                <li><strong>Plus:</strong> A complete trip planning checklist and a toolkit of the best travel resources.</li>
+                            </ul>
+
+                            <p>This guide is for anyone who wants to upgrade their travel experience without upgrading their budget. All 20 secrets are easy to understand and implement on your very next trip.</p>
+                            <p class="font-semibold">Download now and start planning your smartest trip ever.</p>
+                        </div>
+                        
+                        <div class="text-center md:text-left mt-8">
+                             <a href="https://reelaffirmations.gumroad.com/l/ohpxgn" target="_blank" class="inline-block bg-blue-600 text-white font-bold py-3 px-8 rounded-lg hover:bg-blue-700 transition text-lg">Get the E-Book - $7.99</a>
+                        </div>
+                    </div>
                 </div>
+                
+                <!-- Additional Details Section -->
+                <div class="mt-12 border-t pt-8">
+                    <h3 class="text-2xl font-bold text-gray-800 font-serif mb-4">Additional Details:</h3>
+                    <div class="space-y-4 text-gray-700">
+                        <p><strong>Length:</strong> 15 pages of high-impact, fluff-free content.</p>
+                        <p><strong>20 Actionable Secrets, Not Just Tips:</strong> This guide goes beyond generic advice. You'll get specific, proven strategies on everything from finding "mistake fares" to leveraging credit card points for luxury hotel stays.</p>
+                        <p><strong>Immediate Return on Investment:</strong> The secrets inside can save you hundreds, if not thousands, of dollars on your very next trip. For the price of a coffee, you get a playbook that pays for itself many times over.</p>
+                        <p><strong>Perfect for All Experience Levels:</strong> Whether you're a seasoned traveler or planning your first big trip, this book has you covered. It includes advanced "travel hacking" strategies alongside a "Back to the Basics" guide for booking flights and hotels with confidence.</p>
+                        <p><strong>Printable Trip Planner Included:</strong> Get access to a simple, one-page checklist to help you organize your planning and put these secrets into action immediately.</p>
+                        <p><strong>Curated Resource Toolkit:</strong> Save hours of research time with a hand-picked list of the best websites, apps, and services for flights, accommodation, and travel insurance.</p>
+                        <p><strong>Instant, Lifetime Access:</strong> Download the e-book instantly in PDF format and keep it forever. It's readable on any phone, tablet, or computer.</p>
+                    </div>
+                </div>
+
             </div>
         </section>
         
